@@ -1,0 +1,17 @@
+body{
+text-align: center;
+}
+button{
+    margin-top: 1%;
+    background-color: bisque;
+}
+form{
+    margin-top: 2%;
+}
+p{
+    text-transform: capitalize;
+} 
+#storeNum{
+    display: flex;
+    justify-content: center;
+}

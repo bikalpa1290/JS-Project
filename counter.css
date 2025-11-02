@@ -1,0 +1,29 @@
+#main{
+ margin-left: 45%;
+}
+#boxes{
+ display: flex;
+ gap: 10px;
+ margin-left: 50px;
+ text-align: center;
+}
+.box{
+    background-color: blue;
+    height: 25px;
+    width: 25px;
+}
+#set{
+    background-color: blue;
+    display: block;
+    margin-left: 50px;
+
+}
+#count{
+    margin-left: 70px;
+}
+#step{
+    width: 50px;
+}
+header{
+    text-align: center;
+}

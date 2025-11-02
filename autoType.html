@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="autoType.js" defer></script>
+<style>
+    h2{
+        text-align: center;
+    }
+    div{
+        margin: 20vh;
+        display: flex;
+        justify-content: center
+    }
+    span{
+        color: rgb(177, 69, 69);
+    }
+    @keyframes blink{
+        0%,50%{ opacity: 1; }
+        51%,100% { opacity: 0; }
+    }
+    #cursor{
+        animation: blink 0.3s infinite normal;
+    }
+</style>
+</head>
+<body>
+    <h2>Multi typing</h3>
+    <div id="main">
+        <h3>I am a <span id="update"></span><span id="cursor">|</span></h3>
+    </div>
+</body>
+</html>

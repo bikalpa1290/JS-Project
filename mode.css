@@ -1,0 +1,11 @@
+div{
+    border: 2px solid black;
+}
+.changedDiv{
+    border: 2px solid white;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+}

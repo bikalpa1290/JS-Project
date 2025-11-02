@@ -1,0 +1,99 @@
+header{
+    text-align: center;
+}
+body{
+    margin: 0px;
+    font-style: italic;
+}
+#main{
+ display: flex;
+ height: 30rem;
+ width: 40rem;
+ /* background-color: yellow; */
+ margin-left: 55vh;
+ justify-content: center;
+ align-items: center;
+}
+.boxes{
+    height: 28rem;
+    width: 18rem;
+    margin: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#first input {
+  width: 70%;              
+  max-width: 200px;            
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.tip{
+    display: inline-block;
+    background-color: white;
+    width: 2rem;
+    height: 2em;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 30%;
+    margin-bottom: 0px;
+}
+@keyframes boder{
+    from{
+        border: 2px solid transparent;
+        background-color: white;
+    }    
+    to{
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(189, 196, 196);
+    }
+}
+.tip:hover{
+    animation: boder 0.3 forwards;
+}
+#first1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#numP{
+    height: 15px;
+    width: 1px;
+}
+button{
+    margin: 5px;
+    height: 2rem;
+}
+.bills{
+    background-color: aliceblue;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    padding: 5px;
+    /* border: 1px solid wheat; */
+    border-radius: 10%;
+}
+#errorBox{
+    display: flex;
+    justify-content: center;
+    /* color: red; */
+}
+#error{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    /* visibility: hidden; */
+}
